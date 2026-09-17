@@ -64,21 +64,23 @@
     letter-spacing: -0.01em;
     font-weight: 600;
     font-size: 18px; 
+    transition: color 0.2s ease;
 }
 
 .nav-item > a:hover {
-    color: #740404;
+    color: #A81A1A;
 }
 
 .dropdown-menu {
     position: absolute;
     display: flex;
     flex-direction: column;
+    text-align: left;
     top: 100%;
     left: 100%;
     transform: translateX(-50%);
-    width: auto;
-    padding: 10px 30px;
+    width: 240px;
+    padding: 0 0;
     background: white;
     border: 1px solid #eee;
     border-radius: 10px;
@@ -106,27 +108,24 @@
     letter-spacing: -0.01em;
     font-weight: 600;
     font-size: 18px; 
+    transition: color 0.2s ease;
 }
 
 .dropdown-menu a:hover {
-    color: #611818;
+    color: #A81A1A;
 }
 
 .contact-btn {
     padding: 12px 22px;
-
     border: none;
     border-radius: 7px;
-
     background: #111;
     color: white;
-
     font-size: 14px;
     font-weight: 600;
-
     cursor: pointer;
 }
 
 .contact-btn:active {
-    color: #740404;
+    color: #A81A1A;
 }

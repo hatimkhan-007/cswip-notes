@@ -27,7 +27,7 @@ function Navbar() {
               <a href="/">MVP Development</a><hr />
               <a href="/">App Development</a><hr />
               <a href="/">Robotics</a><hr />
-              <a href="/">AI Transformation</a><hr />
+              <a href="/">AI Transformation</a>
             </div>
           </li>
 
@@ -41,7 +41,7 @@ function Navbar() {
               <a href="/">Computer Vision</a><hr />
               <a href="/">Blockchain</a><hr />
               <a href="/">Stacks</a><hr />
-              <a href="/">App Development</a><hr />
+              <a href="/">App Development</a>
             </div>
           </li>
 
@@ -55,7 +55,7 @@ function Navbar() {
               <a href="/">SaaS Companies</a><hr />
               <a href="/">App Companies</a><hr />
               <a href="/">Marketing Agencies</a><hr />
-              <a href="/">Enterprises</a><hr />
+              <a href="/">Enterprises</a>
             </div>
           </li>
 
@@ -67,7 +67,7 @@ function Navbar() {
             <div className="dropdown-menu">
               <a href="/about">Blog</a><hr />
               <a href="/about">Portfolio</a><hr />
-              <a href="/about">Careers</a><hr />
+              <a href="/about">Careers</a>
             </div>
           </li>
 
@@ -80,7 +80,7 @@ function Navbar() {
               <a href="/contact">History</a><hr />
               <a href="/contact">Present</a><hr />
               <a href="/contact">Future</a><hr />
-              <a href="/contact">Why Us</a><hr />
+              <a href="/contact">Why Us</a>
             </div>
           </li>
 
