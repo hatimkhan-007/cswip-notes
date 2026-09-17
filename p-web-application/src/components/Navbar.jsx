@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logoUrl from '../assets/logo.jpeg';
+import logoUrl from '../assets/original_logo.png';
 import { ChevronDown } from "react-bootstrap-icons";
 
 function Navbar() {
@@ -12,7 +12,6 @@ function Navbar() {
           alt="Nexora logo"
           className="logo"
         />
-        <h1>Nexora</h1>
       </div>
 
       <nav className="navigation-bar">
@@ -20,7 +19,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/" className="nav-title">
-              Services <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
+              Services <ChevronDown size={12} style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -34,7 +33,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/" className="nav-title">
-              Technologies <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
+              Technologies <ChevronDown size={12} style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -48,7 +47,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/" className="nav-title">
-              Customers <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
+              Customers <ChevronDown size={12} style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -62,7 +61,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/about" className="nav-title">
-              Look Inside <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
+              Look Inside <ChevronDown size={12} style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -74,7 +73,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/contact" className="nav-title">
-              About Us <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
+              About Us <ChevronDown size={12} style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
