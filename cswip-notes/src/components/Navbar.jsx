@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <>
+    <div className='navbar'>
         <div className="logo-div">
             <img src="./logo.png" alt="logo" />
             <h1>Nexora</h1>
@@ -18,7 +18,7 @@ function Navbar() {
         </nav>
         <button className='btn btn-primary'>Login</button>
         <button className='btn btn-secondary'>Get Started</button>
-    </>
+    </div>
   )
 }
 
