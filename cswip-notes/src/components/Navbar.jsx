@@ -1,4 +1,5 @@
 import React from 'react'
+import './Navbar.css'
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
             <img src="./logo.png" alt="logo" />
             <h1>Nexora</h1>
         </div>
-        <nav>
+        <nav className='navigation-bar'> 
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">Features</a></li>
