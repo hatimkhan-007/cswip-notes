@@ -11,19 +11,47 @@ return (
             </div>
             <nav className='navigation-bar'> 
                     <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">Features</a></li>
-                            <li><a href="/">Pricing</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <ul><a href="/">Services</a>
+                                <li><a href="/">Team Augmentation</a></li>
+                                <li><a href="/">MVP Development</a></li>
+                                <li><a href="/">App Development</a></li>
+                                <li><a href="/">Robotics</a></li>
+                                <li><a href="/">AI Transformation</a></li>
+                            </ul>
+                            <ul>
+                                <a href="/">Technologies</a>
+                                <li><a href="/">AI/ML Learning</a></li>
+                                <li><a href="/">Computer Vision</a></li>
+                                <li><a href="/">Blockchain</a></li>
+                                <li><a href="/">Stacks</a></li>
+                                <li><a href="/">App Development</a></li>
+                            </ul>
+                            <ul>
+                                <a href="/">Customers</a>
+                                <li><a href="/">Startups</a></li>
+                                <li><a href="/">Saas Companies</a></li>
+                                <li><a href="/">App Companies</a></li>
+                                <li><a href="/">Marketing Agencies</a></li>
+                                <li><a href="/">Enterprises</a></li>
+                            </ul>
+                            <ul>
+                                <a href="/about">Look Inside</a>
+                                <li><a href="/about">Blog</a></li>
+                                <li><a href="/about">Portfolio</a></li>
+                                <li><a href="/about">Careers</a></li>
+                            </ul>
+                            <ul>
+                                <a href="/contact">About Us</a>
+                                <li><a href="/contact">History</a></li>
+                                <li><a href="/contact">Present</a></li>
+                                <li><a href="/contact">Future</a></li>
+                                <li><a href="/contact">Why Us</a></li>
+                            </ul>
                     </ul>
-            </nav>
-            <div className="btn">
-                    <button className='btn btn-primary'>Login</button>
-                    <button className='btn btn-secondary'>Get Started</button>
-            </div>
+                    <button className='btn btn-primary'>Contact Us</button>
+            </nav>          
     </div>
-)
+    )
 }
 
 export default Navbar
