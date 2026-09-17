@@ -23,11 +23,11 @@ function Navbar() {
             </a>
 
             <div className="dropdown-menu">
-              <a href="/">Team Augmentation</a>
-              <a href="/">MVP Development</a>
-              <a href="/">App Development</a>
-              <a href="/">Robotics</a>
-              <a href="/">AI Transformation</a>
+              <a href="/">Team Augmentation</a><hr />
+              <a href="/">MVP Development</a><hr />
+              <a href="/">App Development</a><hr />
+              <a href="/">Robotics</a><hr />
+              <a href="/">AI Transformation</a><hr />
             </div>
           </li>
 
@@ -37,11 +37,11 @@ function Navbar() {
             </a>
 
             <div className="dropdown-menu">
-              <a href="/">AI/ML Learning</a>
-              <a href="/">Computer Vision</a>
-              <a href="/">Blockchain</a>
-              <a href="/">Stacks</a>
-              <a href="/">App Development</a>
+              <a href="/">AI/ML Learning</a><hr />
+              <a href="/">Computer Vision</a><hr />
+              <a href="/">Blockchain</a><hr />
+              <a href="/">Stacks</a><hr />
+              <a href="/">App Development</a><hr />
             </div>
           </li>
 
@@ -51,11 +51,11 @@ function Navbar() {
             </a>
 
             <div className="dropdown-menu">
-              <a href="/">Startups</a>
-              <a href="/">SaaS Companies</a>
-              <a href="/">App Companies</a>
-              <a href="/">Marketing Agencies</a>
-              <a href="/">Enterprises</a>
+              <a href="/">Startups</a><hr />
+              <a href="/">SaaS Companies</a><hr />
+              <a href="/">App Companies</a><hr />
+              <a href="/">Marketing Agencies</a><hr />
+              <a href="/">Enterprises</a><hr />
             </div>
           </li>
 
@@ -65,9 +65,9 @@ function Navbar() {
             </a>
 
             <div className="dropdown-menu">
-              <a href="/about">Blog</a>
-              <a href="/about">Portfolio</a>
-              <a href="/about">Careers</a>
+              <a href="/about">Blog</a><hr />
+              <a href="/about">Portfolio</a><hr />
+              <a href="/about">Careers</a><hr />
             </div>
           </li>
 
@@ -77,10 +77,10 @@ function Navbar() {
             </a>
 
             <div className="dropdown-menu">
-              <a href="/contact">History</a>
-              <a href="/contact">Present</a>
-              <a href="/contact">Future</a>
-              <a href="/contact">Why Us</a>
+              <a href="/contact">History</a><hr />
+              <a href="/contact">Present</a><hr />
+              <a href="/contact">Future</a><hr />
+              <a href="/contact">Why Us</a><hr />
             </div>
           </li>
 
