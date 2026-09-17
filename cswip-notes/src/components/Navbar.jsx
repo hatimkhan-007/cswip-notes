@@ -17,8 +17,10 @@ function Navbar() {
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        <button className='btn btn-primary'>Login</button>
-        <button className='btn btn-secondary'>Get Started</button>
+        <div className="btn">
+            <button className='btn btn-primary'>Login</button>
+            <button className='btn btn-secondary'>Get Started</button>
+        </div>
     </div>
   )
 }
