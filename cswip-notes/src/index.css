@@ -52,11 +52,14 @@
 
 body {
   margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
+  padding: 0;
   margin: 0 auto;
   text-align: center;
   border-inline: 1px solid var(--border);
