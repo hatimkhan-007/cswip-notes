@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logoUrl from '../assets/logo.jpeg';
+import { ChevronDown } from "react-bootstrap-icons";
 
 function Navbar() {
   return (
@@ -19,7 +20,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/" className="nav-title">
-              Services
+              Services <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -33,7 +34,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/" className="nav-title">
-              Technologies
+              Technologies <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -47,7 +48,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/" className="nav-title">
-              Customers
+              Customers <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -61,7 +62,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/about" className="nav-title">
-              Look Inside
+              Look Inside <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
@@ -73,7 +74,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="/contact" className="nav-title">
-              About Us
+              About Us <ChevronDown style={{ stroke: "currentColor", strokeWidth: "1.5" }} />
             </a>
 
             <div className="dropdown-menu">
